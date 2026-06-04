@@ -3,7 +3,7 @@
 
 🚀 Solving Data Structures & Algorithms problems consistently.
 
-## #DrGViswanathanChallenge
+## #DrGViswanathan Challenge
 
 - Language: Java
 - Platform: LeetCode
