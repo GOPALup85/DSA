@@ -6,12 +6,6 @@ class Solution {
             if(prices[i]>prices[i-1]){
                 max_profit += prices[i]-prices[i-1];
             }
-            // int profit = prices[i]-buy;
-            // while(prices[i]> buy){
-            
-            // // if(profit> max_profit){
-            //     max_profit += profit;
-            // }
         }
         return max_profit;
     }
