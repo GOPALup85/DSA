@@ -13,9 +13,9 @@ class Solution {
         }
         Arrays.sort(merged_array);
         if(len%2==0){
-            return( (merged_array[len/2-1]+merged_array[len/2])/2.0);
+            return((merged_array[len/2-1]+merged_array[len/2])/2.0);
         }else{
-            return( merged_array[len/2]);
+            return(merged_array[len/2]);
         }
         // return median;
     }
