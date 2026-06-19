@@ -4,9 +4,6 @@ class Solution {
             if(nums[i]==target){
                 return true;
             }
-            // else{
-            //     return false;
-            // }
         }
         return false;
     }
