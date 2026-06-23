@@ -4,8 +4,7 @@ class Solution {
         int right =  height.length-1;
         int max_water = 0;
         while(left<right){
-            int water_area = Math.min(height[left],height[right])*(right-left);
-            max_water = Math.max(max_water,water_area);
+            max_water = Math.max(max_water,Math.min(height[left],height[right])*(right-left));
             if(height[left]<height[right]){
                 left++;
             }else{
