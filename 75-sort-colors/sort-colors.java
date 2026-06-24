@@ -5,23 +5,19 @@ class Solution {
         int blue = 0;
         for(int i=0;i<nums.length;i++){
             int num = nums[i];
-            if(num == 0){
+            if(num == 0)
                 red++;
-            }else if(num==1){
+            else if(num==1)
                 white++;
-            }else{
+            else
                 blue++;
-            }  
         }    
         int i=0;
-        while(red-->0){
+        while(red-->0)
             nums[i++]=0;
-        }
-        while(white-->0){
+        while(white-->0)
             nums[i++]=1;
-        }
-        while(blue-->0){
-            nums[i++]=2;
-        }
+        while(blue-->0)
+            nums[i++]=2;       
     }
 }
