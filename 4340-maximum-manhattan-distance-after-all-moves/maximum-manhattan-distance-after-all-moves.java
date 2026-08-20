@@ -2,7 +2,7 @@ class Solution {
     public int maxDistance(String moves) {
         int x=0;
         int y=0;
-        int extra_space=0;
+        int extra__space=0;
         char[]arr = moves.toCharArray();
         for(int i=0;i< arr.length;i++){
             char c = arr[i];
@@ -15,9 +15,9 @@ class Solution {
             }else if( c=='R'){
                 x++;
             }else if( c=='_'){
-                extra_space++;
+                extra__space++;
             }
         }
-        return Math.abs(x)+ Math.abs(y)+ extra_space;
+        return Math.abs(x)+ Math.abs(y)+ extra__space;
     }
 }
